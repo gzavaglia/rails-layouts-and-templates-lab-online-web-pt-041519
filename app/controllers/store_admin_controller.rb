@@ -3,4 +3,13 @@ class StoreAdminController < ApplicationController
   def home
     
   end
+  
+  def orders
+    reder :layout =>"order_administration"
+  end
+  
+  def orders
+    reder :layout => false 
+  end
+  
 end
